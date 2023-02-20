@@ -1,8 +1,12 @@
 import 'package:ders1/101/Scaffold_learn.dart';
 import 'package:ders1/101/app_bar_learn.dart';
 import 'package:ders1/101/button_learn.dart';
+import 'package:ders1/101/card_learn.dart';
 import 'package:ders1/101/container_sized_box_learn.dart';
 import 'package:ders1/101/icon_learn.dart';
+import 'package:ders1/101/image_learn.dart';
+import 'package:ders1/101/padding_learn.dart';
+import 'package:ders1/101/stateless_widget_learn.dart';
 import 'package:ders1/101/text_learn_view.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
           appBarTheme: const AppBarTheme(
               backgroundColor: Colors.red, elevation: 0, centerTitle: true)),
-      home: const IconLearnView(),
+      home: const ImageLearn(),
     );
   }
 }
