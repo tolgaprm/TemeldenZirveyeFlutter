@@ -8,6 +8,7 @@ import 'package:ders1/101/image_learn.dart';
 import 'package:ders1/101/padding_learn.dart';
 import 'package:ders1/101/stateless_widget_learn.dart';
 import 'package:ders1/101/text_learn_view.dart';
+import 'package:ders1/demos/note_demos_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,8 +25,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
           appBarTheme: const AppBarTheme(
-              backgroundColor: Colors.red, elevation: 0, centerTitle: true)),
-      home: const ImageLearn(),
+              backgroundColor: Colors.black, elevation: 0, centerTitle: true)),
+      home: const NoteDemoView(),
     );
   }
 }
